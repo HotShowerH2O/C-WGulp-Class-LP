@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>charity: water | Water = Life</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap">
+  <style>
+    body {
+      @font-face {
+	font-family: 'proxima_nova_rgregular';
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+      background-color: #FFC907;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1em 2em;
+      flex-wrap: wrap;
+    }
+
+    .navbar .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .navbar .nav-links {
+      display: flex;
+      gap: 1.5em;
+      align-items: center;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+    }
+
+    .nav-links .btn {
+      padding: 0.5em 1em;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn-give {
+      background: white;
+      color: black;
+    }
+
+    .btn-join {
+      background: #2E9DF7;
+      color: white;
+    }
+
+    .btn-signin {
+      background: transparent;
+      color: black;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      min-height: 90vh;
+    }
+
+    .hero-image {
+      flex: 1;
+      background: url(<"https://cdn2.dropmarkusercontent.com/52043/5c294c43e401b0f4aaa2e8d0c1ee9636e0795d491969be19b024f83da970805e/preview/Madagascar_2019_CG-1417.jpg?Expires=1750479999&Signature=XULtSb8ga399LABIOsKUSVJ1ZAdk7GAl9xOnVpt5ei5FmUwpZVGEArl5KoEg0GkECV314Wgd8ln3wIJcIBcgM0VdsrONE-tJxZeihw2pBmNa9GHzrEXmG7yy8wgnlVxvT~xJIqDRrd8wsnM5DSpQI1z7FlzAuLi7BbsI6EcrFn-Wz6G3ByyTbErsc94ZkzkW-DUEeFI4coh6BMZvnKO5UVQp0lu1u4uq0qXhgZVLHN5a~k8xc-c990vN8gzXdLUcM1i3xLVRFZn3bZAOUgMdERbvWpV8s1AXsqd2c5aDX90BXnEDqZDq03GtPKtgFKr6qVzLFu-yLtJgAgC2YQp8-Q__&Key-Pair-Id=APKAITQYWVEN757ZA4KQ" alt="PLEASE HELP ME PUT THIS IMAGE AS A BACKGROUND, I'M CRYING OVER HERE">
+) center center / cover no-repeat;
+      min-height: 400px;
+    }
+
+    .hero-text {
+      flex: 1;
+      background: #2E9DF7;
+      color: white;
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .hero-text h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+
+    .hero-text p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .hero-text button {
+      background: white;
+      color: black;
+      font-weight: bold;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+      }
+
+      .hero-text {
+        padding: 40px 20px;
+      }
+
+      .hero-text h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">img/cw_logo-2.png</div>
+    <nav class="nav-links">
+      <a href="#">Take Action</a>
+      <a href="#">About Us</a>
+      <a href="#">Why Water?</a>
+      <a href="#" class="btn btn-give">Give</a>
+      <a href="#" class="btn btn-join">Join The Spring</a>
+      <a href="#" class="btn btn-signin">Sign In</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-image"></div>
+    <div class="hero-text">
+      <h1>Sparking Hope: One Drop at a Time</h1>
+      <p>Charity: water isn’t about looking the best by non-profit standards, but rather showcasing real results with people. Even a dollar helps upt water on a family's table for 12.5 days, and 100% of the dollar is used for that water. That impact lasts forever. .</p>
+      <p>Everyone deserves clean water. Communitives thrive and look forward to a new day when they can use water freely and cleanly, and it's not just about giving people enough to survive, but to thrive. Your donation helps sponsor people across the globe to drive their communities and push for better circumstances - One Drop At A Time.</p>
+      <button>DONATE NOW</button>
+    </div>
+  </section>
+
+</body>
+</html>
